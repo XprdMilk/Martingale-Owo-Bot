@@ -1,3 +1,17 @@
-# Martingale-Owo-Bot
-This is a discord self bot used to auto cf in a discord server using the Martingale strategy. This strategy is a method used to guarantee profit up to a certain point. i.e I bet 1k the first cf, i lose. the second coinflip i double it. if i win i make back my everything i put in so far plus the original 1k bet. it keeps doubling the bet until u win. So ultimately this self bot will auto coinflip while u sit back and make some money.
-quick warning however, the martingale strategy is not foolproof and perfect. Eventually due to maths u will lose everythink u earned. Let me give u an example. I bet 1k each time. In owo cf the max bet u can do is 250k. this means that if i lose 8 times in a row (1k, 2k, 4k, 8k, 16k, 32k, 64k, 128k) i wont be able to double my bet anymore and ultimately i lose 255k cowoncy. The chances of me losing 8 in a row is 1/256. Mathematically this means the EV (expected value) is always going to even out to 0. i.e I spin 255 times and i win all, I make 255k profit. On the 256th turn i lose 8 in a row and then i lose 255k. This is how the maths works with martingale. I suggest Keeping the starting bet value 1k or lower to maximise how many loses in a row u can take.
+# OwO Bot Martingale Farmer
+
+An automated, hands-free coinflip script for the Discord OwO Bot using the Martingale betting strategy.
+
+### Features
+* **Live Dashboard:** Displays current bankroll, net profit, and countdown timers directly in the console.
+* **Captcha Detection:** Instantly stops sending commands and plays a loud siren if a captcha is detected.
+* **Auto-Cash Check:** Periodically checks your balance automatically to keep the terminal dashboard updated.
+
+### Installation
+1. Install the requirements: `pip install -r requirements.txt`
+2. Rename `.env.example` to `.env` and paste your Discord User Token and Target Channel ID inside.
+3. Run the script: `python mart2.py`
+4. Type `.start` in the designated Discord channel.
+
+### Disclaimer
+Using self-bots violates Discord's Terms of Service. Use this script at your own risk. Furthermore, the Martingale strategy does not guarantee infinite profit; a long enough losing streak will wipe out your bankroll. Walk away while you are in the green!
