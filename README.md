@@ -12,6 +12,7 @@ An automated, hands-free coinflip script for the Discord OwO Bot using the Marti
 2. Rename `.env.example` to `.env` and paste your Discord User Token and Target Channel ID inside.
 3. Run the script: `python mart2.py`
 4. Type `.start` in the designated Discord channel.
+5. If you want to configure the starting and maximum bet amount open the `mart.2 ` file using notepad and change it.
 
 ### Disclaimer
 Using self-bots violates Discord's Terms of Service. Use this script at your own risk. Furthermore, the Martingale strategy does not guarantee infinite profit; a long enough losing streak will wipe out your bankroll. Walk away while you are in the green!
